@@ -41,12 +41,8 @@ public class RestaurantAndCoffeeRunner {
                     System.out.println("Hatali Giris Yaptiniz");
             }
 
-
         }
         System.out.println("Iyi Gunler Tekrar Bekleriz");
-
-
-
 
 
 

@@ -82,9 +82,9 @@ public class OrderService {
 
     public void printBill(){
         double totalPrice=0.0;
-        System.out.println("                             ====>       Lezzet Fisiniz        <====                        ");
+        System.out.println("               ====>       Lezzet Fisiniz        <====            ");
         for(Order order:this.orderList){
-            System.out.printf("Lezzet kodu : %-5s     adi : %-20s       adeti : %-5s   siparis tutari : %-5s  Lira",
+            System.out.printf("Lezzet kodu : %-5s    adi : %-20s   adeti : %-5s   siparis tutari : %-5s  Lira\n",
                     order.dish.getCode(),order.dish.getName(),order.numOfDish,order.orderPrice);
             totalPrice+=order.orderPrice;
         }
